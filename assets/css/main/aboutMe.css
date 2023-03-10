@@ -1,0 +1,43 @@
+.aboutMe__container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+}
+
+.aboutMe__parrafo {
+    text-align: justify;
+    line-height: 50px;
+    font-weight: 300;
+    font-size: 22px;
+    color: var(--font-principal);
+    padding: 0 7% 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .aboutMe__container {
+        padding: 20px 50px;
+    }
+
+    .aboutMe__parrafo {
+        line-height: 30px
+    }
+}
+
+@media screen and (max-width: 570px){
+    .aboutMe__container{
+        width: 100%;
+        padding:0;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .aboutMe__container {
+        padding: 5px 5px;
+        z-index: 5;
+    }
+
+    .aboutMe__parrafo {
+        line-height: 26px;
+    }
+}

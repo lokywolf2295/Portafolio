@@ -1,0 +1,29 @@
+.technologies__container{
+    text-align: center;
+}
+
+.technologies__cards{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.technologies__icons{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+}
+
+.container-icon{
+    color: white;
+    margin: 0 5px;
+}
+
+.icon{
+    height: 80px;
+    margin: 1rem;
+}
+
