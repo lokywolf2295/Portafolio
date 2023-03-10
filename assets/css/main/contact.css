@@ -1,0 +1,77 @@
+.contact {
+    background: var(--bg-light);
+    color: #000;
+    align-items: center;
+    text-align: center;
+}
+
+.contact__data_container {
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.contact__titulo{
+    color: var(--acento-primario);
+    font-size: 32px;
+    padding: 32px;
+    text-transform: uppercase;
+}
+.contact__list {
+    display: flex;
+    
+    padding-top: 2rem;
+}
+
+.contact__card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    padding: 1rem;
+
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    transition: var(--transition);
+}
+
+.contact__networks {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact__icons-link {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--color-text-dark);
+}
+
+.contact__email-texto {
+    transition: var(--transition);
+}
+
+.contact__email-texto:hover {
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 900px) {
+    .contact__list {
+        flex-direction: column;
+    }
+
+    .contact__text{
+        display: none;
+    }
+}
+
